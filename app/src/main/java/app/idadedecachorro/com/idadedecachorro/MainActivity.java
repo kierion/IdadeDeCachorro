@@ -30,13 +30,16 @@ public class MainActivity extends AppCompatActivity {
 
                 if ( textoDigitado.isEmpty() ){
 
+//teste
                     resultadoIdade.setText("Favor digite a idade do cachorro para cálculo");
+                    caixaTexto.setText("");
 
                 }else{
 
                     int valorDIgitado = Integer.parseInt(textoDigitado);
                     int resultadoFinal = valorDIgitado * 7;
                     resultadoIdade.setText("A idade do cachorro em anos humanos é: " + resultadoFinal + " anos ");
+                    caixaTexto.setText("");
 
                 }
 
